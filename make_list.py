@@ -1,7 +1,7 @@
 import random
-def make():
+def make(number):
     numlist =[]
-    for i in range(10):
+    for i in range(number):
         numlist.append(random.randint(0,1000))
     return numlist
 
